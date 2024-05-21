@@ -3,7 +3,7 @@ import type { Config } from '@docusaurus/types';
 import { themes as prismThemes } from 'prism-react-renderer';
 
 const config: Config = {
-  title: 'My Site',
+  title: 'CarlJi',
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
@@ -38,7 +38,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/Carlji/website',
         },
         blog: {
           showReadingTime: true,
@@ -58,25 +58,24 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'CarlJi',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
       },
       items: [
         { to: '/blog', label: '博客', position: 'left' },
-        // { to: '/k8see', label: '云原生工程效率', position: 'left' },
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
           position: 'left',
           label: '云原生工程效率实践',
+          sidebarId: 'cnee',
         },
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'gtc',
           position: 'left',
-          label: 'go测试覆盖率',
+          label: 'Go测试覆盖率技术',
         },
         {
           href: 'https://github.com/CarlJi',
