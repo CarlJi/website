@@ -4,7 +4,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 const config: Config = {
   title: 'CarlJi',
-  tagline: 'Dinosaurs are cool',
+  tagline: '知行合一 务实进取',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -45,7 +45,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/Carlji/website',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -64,7 +64,6 @@ const config: Config = {
         src: 'img/logo.svg',
       },
       items: [
-        { to: '/blog', label: '博客', position: 'left' },
         {
           type: 'docSidebar',
           position: 'left',
@@ -77,6 +76,7 @@ const config: Config = {
           position: 'left',
           label: 'Go测试覆盖率技术',
         },
+        { to: '/blog', label: '博客', position: 'left' },
         {
           href: 'https://github.com/CarlJi',
           label: 'GitHub',
