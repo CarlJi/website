@@ -88,46 +88,41 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: '关注公众号',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              html: `
+              <a target="_blank" rel="noreferrer noopener" aria-label="wechat">
+                <img src="img/vx.png" alt="Wechat" />
+              </a>
+            `,
             },
           ],
         },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-          ],
-        },
+        {},
         {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
+              label: 'GitHub',
+              href: 'https://github.com/CarlJi',
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'InfoQ',
+              href: 'https://www.infoq.cn/u/carlji/publish',
+            },
+            {
+              label: '博客园',
+              href: 'https://www.cnblogs.com/jinsdu',
+            },
+            {
+              label: '知乎',
+              href: 'https://www.zhihu.com/people/jinsdu/posts',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} CarlJi, Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,

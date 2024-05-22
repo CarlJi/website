@@ -1,5 +1,6 @@
-import clsx from 'clsx';
+import Translate from '@docusaurus/Translate';
 import Heading from '@theme/Heading';
+import clsx from 'clsx';
 import styles from './styles.module.css';
 
 type FeatureItem = {
@@ -10,32 +11,38 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'Kubernetes & Cloud Native',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+      云原生技术
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Quality Assurance',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+      质量保障
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Engineering efficiency',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+      工程效能
+      </>
+    ),
+  },
+  {
+    title: 'Leadership',
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    description: (
+      <>
+      技术领导力
       </>
     ),
   },
@@ -43,7 +50,7 @@ const FeatureList: FeatureItem[] = [
 
 function Feature({title, Svg, description}: FeatureItem) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx('col col--3')}>
       <div className="text--center">
         <Svg className={styles.featureSvg} role="img" />
       </div>
@@ -59,6 +66,11 @@ export default function HomepageFeatures(): JSX.Element {
   return (
     <section className={styles.features}>
       <div className="container">
+        <div>
+          <Heading as="h2" className={clsx('margin-top--lg', 'text--center')}>
+            <Translate>关注领域</Translate>
+          </Heading>
+        </div>
         <div className="row">
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
