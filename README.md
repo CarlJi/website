@@ -1,41 +1,15 @@
-# Website
+# 大卡尔
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+一点文字: https://carlji.netlify.app
 
-### Installation
+关注测开技术，工程效能，技术领导力，云原生等领域.
 
-```
-$ yarn
-```
+致力于用技术手段提升企业生产力.
 
-### Local Development
+> 欢迎关注
 
-```
-$ yarn start
-```
+> ![](static/img/qrcode.jpg)
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+---
 
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+#### 旧站点: https://github.com/CarlJi/words
