@@ -93,7 +93,7 @@ const config: Config = {
             {
               html: `
               <a target="_blank" rel="noreferrer noopener" aria-label="wechat">
-                <img src="img/vx.png" alt="Wechat" />
+                <img src="/img/image.png" alt="Wechat" />
               </a>
             `,
             },
