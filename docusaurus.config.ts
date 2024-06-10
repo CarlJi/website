@@ -128,7 +128,20 @@ const config: Config = {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
+    giscus: {
+      repo: 'CarlJi/website',
+      repoId: 'R_kgDOL3V2zQ',
+      category: 'General',
+      categoryId: 'DIC_kwDOL3V2zc4Cf_Oo',
+      mapping: "pathname",
+      reactionsEnabled: "1",
+      emitMetadata: "0",
+      theme: "light",
+      lang: "en",
+      CrossOrigin: "anonymous",
+    },
   } satisfies Preset.ThemeConfig,
+  clientModules: [require.resolve('./src/clientModules/routeModules.ts')],
 };
 
 export default config;
