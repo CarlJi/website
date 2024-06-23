@@ -78,6 +78,11 @@ const config: Config = {
         },
         { to: '/blog', label: '博客', position: 'left' },
         {
+          href: 'https://github.com/qiniu/reviewbot',
+          label: 'Reviewbot',
+          position: 'right',
+        },
+        {
           href: 'https://github.com/CarlJi',
           label: 'GitHub',
           position: 'right',
