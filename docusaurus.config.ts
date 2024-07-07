@@ -76,6 +76,12 @@ const config: Config = {
           position: 'left',
           label: 'Go测试覆盖率技术',
         },
+        {
+          type: 'docSidebar',
+          sidebarId: 'lac',
+          position: 'left',
+          label: '语言与编译器',
+        },
         { to: '/blog', label: '博客', position: 'left' },
         {
           href: 'https://github.com/qiniu/reviewbot',
