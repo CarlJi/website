@@ -41,6 +41,8 @@ const config: Config = {
             'https://github.com/Carlji/website',
         },
         blog: {
+          blogSidebarTitle: 'All',
+          blogSidebarCount: 15,
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -115,20 +117,24 @@ const config: Config = {
           title: 'More',
           items: [
             {
-              label: 'GitHub',
-              href: 'https://github.com/CarlJi',
+              label: '博客园',
+              href: 'https://www.cnblogs.com/jinsdu',
             },
             {
               label: 'InfoQ',
               href: 'https://www.infoq.cn/u/carlji/publish',
             },
             {
-              label: '博客园',
-              href: 'https://www.cnblogs.com/jinsdu',
+              label: 'CSDN',
+              href: 'https://blog.csdn.net/jinsdu',
             },
             {
               label: '知乎',
               href: 'https://www.zhihu.com/people/jinsdu/posts',
+            },
+            {
+              label: 'X(Twitter)',
+              href: 'https://x.com/DaCarlJi',
             },
           ],
         },
